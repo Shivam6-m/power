@@ -8,4 +8,4 @@ int main()
     cout<<vec[2]<<endl;
 return 0;
 }//this is 3 size of vector if we want to print and loactio means index is print that particular loaction like 
-// if we print 0 it print 1// hh
+// if we print 0 it print 1// hh////
