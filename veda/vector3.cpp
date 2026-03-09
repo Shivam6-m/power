@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    vector<int>vec(5,0);
+    vector<int>vec(5,0);//vector
     cout<<vec[0]<<endl;
     cout<<vec[1]<<endl;
     cout<<vec[2]<<endl;
