@@ -3,7 +3,7 @@
 using namespace std;
 int removeDuplicates(vector<int>& nums){
    int n=nums.size();
-   // i= its a unique element ohk 
+   // i= its a unique element ohk // ohk 
    //j= i use j for find a unique elemnt and giveit to be i //
    int i=0,j=1;
    while(j<n){
