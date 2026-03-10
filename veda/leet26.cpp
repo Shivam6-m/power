@@ -4,7 +4,7 @@ using namespace std;
 int removeDuplicates(vector<int>& nums){
    int n=nums.size();
    // i= its a unique element ohk 
-   //j= i use j for find a unique elemnt and giveit to be i 
+   //j= i use j for find a unique elemnt and giveit to be i //
    int i=0,j=1;
    while(j<n){
     if(nums[i]!=nums[j]){// got a uniques element and it check the condition is true or false 
