@@ -13,7 +13,7 @@ int removeDuplicates(vector<int>& nums){
     }
     j++;// to find a unique element 
    }
-return i+1;
+return i+1;// if i =4 so i becom 5 output
 }
   int main() {
     int n;
