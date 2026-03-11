@@ -6,7 +6,7 @@ int main(){
         if(i==1)
         cout<<" O   O";
         else if(i==2)
-        cout<<"/|\\ /|\\";
+        cout<<"/|\\ /|\\";//
         else
         cout<<"/ \\ / \\";
         cout<<endl;
