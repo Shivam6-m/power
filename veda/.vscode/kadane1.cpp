@@ -14,7 +14,7 @@ for(int st=0; st<n;st++){
         }
         cout<<" ";
     }
-    cout<<endl;
+    cout<<endl;//
 }
 return 0;
 }
