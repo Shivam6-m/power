@@ -17,7 +17,7 @@ int main() {
     string s, t;
     cout << "Enter string s: ";
     cin >> s;
-    cout << "Enter string t: ";
+    cout << "Enter string t: ";//
     cin >> t;
     char result = sol.findTheDifference(s, t);
     cout << "Extra character is: " << result << endl;
