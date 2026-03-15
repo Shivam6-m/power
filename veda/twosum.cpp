@@ -20,7 +20,7 @@ vector<int> twoSum(vector<int>& numbers, int target) {
     return {};
 }
 int main(){
-    vector<int> numbers = {2,7,11,15};
+    vector<int> numbers = {2,7,11,15};//
     int target = 9;
     vector<int> result = twoSum(numbers, target);
     cout << "Indices: ";
