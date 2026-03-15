@@ -14,7 +14,7 @@ vector<int> twoSum(vector<int>& numbers, int target) {
             left++;
         }
         else{
-            right--;
+            right--;//
         }
     }
     return {};
