@@ -23,6 +23,5 @@ int main(){
     if(isLower)
         cout<<"true";//this say true 
     else
-        cout<<"false";// this is say false
-
+        cout<<"false";// this is say false//
 }
