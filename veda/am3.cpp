@@ -21,7 +21,7 @@ int main(){
             break;
     }
     if(isLower)
-        cout<<"true";
+        cout<<"true";//this say true 
     else
         cout<<"false";
 
