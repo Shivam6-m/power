@@ -7,7 +7,7 @@ bool isvalid(vector<int> &arr,  int n , int m, int maxAllowedPages){//0(n)//
     int students =1;
     int pages =0;
 for( int i =0; i<n; i++){
-    if(arr[i] > maxAllowedPages){ //this is the edge cases and its very important cases 
+    if(arr[i] > maxAllowedPages){ //this is the edge cases and its very important cases ohk
         return false ;
     }
     if(pages + arr[i] <= maxAllowedPages){
