@@ -3,7 +3,7 @@
 #include<vector>
 #include <algorithm>
 using namespace std;
-bool isvalid(vector<int> &arr,  int n , int m, int maxAllowedPages){//0(n)
+bool isvalid(vector<int> &arr,  int n , int m, int maxAllowedPages){//0(n)//
     int students =1;
     int pages =0;
 for( int i =0; i<n; i++){
