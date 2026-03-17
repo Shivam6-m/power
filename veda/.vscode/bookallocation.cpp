@@ -25,7 +25,7 @@ int allocateBooks(vector<int> &arr, int n, int m){
         return -1;
     }
    int sum=0;
-    for(int i=0;i <n ;i++){ // 0(n)
+    for(int i=0;i <n ;i++){ // 0(n) ohk
         sum +=arr[i];
     } 
 
