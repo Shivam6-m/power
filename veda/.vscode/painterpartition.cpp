@@ -6,7 +6,7 @@ bool isPossible(vector<int>& arr, int n,int m,int maxAllowedTime){
     int time=0;
 
     for (int i=0;i<n;i++){
-        if( time + arr[i] <= maxAllowedTime){
+        if( time + arr[i] <= maxAllowedTime){//
             time += arr[i];
         } else{
             painters ++;
