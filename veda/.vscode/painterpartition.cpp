@@ -15,7 +15,7 @@ bool isPossible(vector<int>& arr, int n,int m,int maxAllowedTime){//
     }
     return painters <=m;
 }
-int minTimeToPaint( vector <int> & arr , int n, int m){
+int minTimeToPaint( vector <int> & arr , int n, int m){//point 
     int sum= 0, maxval= INT_MIN;
     for (int i=0;i<n;i++){
       sum += arr [i];
