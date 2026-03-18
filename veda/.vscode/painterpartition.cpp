@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-bool isPossible(vector<int>& arr, int n,int m,int maxAllowedTime){
+bool isPossible(vector<int>& arr, int n,int m,int maxAllowedTime){//
     int painters =1;
     int time=0;
 
