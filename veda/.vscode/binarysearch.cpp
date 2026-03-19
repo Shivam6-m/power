@@ -26,7 +26,7 @@ int main()
      //cout<<binarysearch(arr1, target1) <<endl;
 
 
-    vector<int> arr2 ={-1,0,3,5,9,12};//for even 
+    vector<int> arr2 ={-1,0,3,5,9,12};//this is for even 
     int target2=10;
   cout<<binarysearch(arr2, target2) <<endl;
 vector<int> arr3 ={3,4,5,6,7,0,1,2,};
