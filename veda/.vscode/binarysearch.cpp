@@ -20,7 +20,7 @@ int binarysearch(vector<int> arr, int target){
 }
 int main()
 {
-    vector<int> arr1= {-1,0,3,4,5,9,12};// for odd
+    vector<int> arr1= {-1,0,3,4,5,9,12};//  this is for odd 
     int target1=12;
  
      //cout<<binarysearch(arr1, target1) <<endl;
