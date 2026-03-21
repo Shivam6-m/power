@@ -7,5 +7,5 @@ int main()
     str ="yes shivam bolo";
 cout << str<<endl ;
 
-return 0;
+return 0;//
 }
