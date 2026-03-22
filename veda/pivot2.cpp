@@ -19,7 +19,7 @@ int trap(vector<int>& height) {
              << "leftMax=" << leftmax << ", rightMax=" << rightmax;
 
         if (leftmax < rightmax) {
-            int trapped = leftmax - height[l];
+            int trapped = leftmax - height[l];//
             water += trapped;
 
             cout << " -> Add " << trapped << " water (LEFT)\n";
