@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     long long A;
-    cin>>A;
+    cin>>A;//
     long long low=0,high=A;
     long long ans=0;
     while(low<=high){
