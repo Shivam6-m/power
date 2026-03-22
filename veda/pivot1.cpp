@@ -13,7 +13,7 @@ int trap(vector<int>& height) {
         rightmax = max(rightmax, height[r]);
 
         if (leftmax < rightmax) {
-            ans += (leftmax - height[l]);
+            ans += (leftmax - height[l]);//
             l++;
         } else {
             ans += (rightmax - height[r]);
