@@ -5,7 +5,7 @@
 using namespace std;
 
 bool isPalindrome(string s) {
-    int left = 0, right = s.length() - 1;
+    int left = 0, right = s.length() - 1;//
 
     while (left < right) {
         while (left < right && !isalnum(s[left])) left++;
