@@ -6,7 +6,7 @@ using namespace std;
 
 string reverseWords(string s) {
     stringstream ss(s);//
-    string word, result;
+    string word, result;//
 
     vector<string> words;
 
