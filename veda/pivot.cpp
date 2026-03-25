@@ -8,7 +8,7 @@ void nextPermutation(vector<int>& A) {
 
     // Step 1: find pivot
     for(int i = n - 2; i >= 0; i--){//
-        if(A[i] < A[i + 1]){
+        if(A[i] < A[i + 1]){//
             pivot = i;
             break;
         }
