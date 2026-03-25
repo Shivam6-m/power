@@ -8,7 +8,7 @@ void nextPermutation(vector<int>& nums) {
     int n = nums.size();
     int pivot = -1;
 
-    // Step 1: Find pivot
+    // Step 1: Find pivot ohk 
     for (int i = n - 2; i >= 0; i--) {
         if (nums[i] < nums[i + 1]) {
             pivot = i;
