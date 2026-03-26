@@ -18,7 +18,7 @@ string reverseWords(string s) {
 
     for (int i = 0; i < words.size(); i++) {
         result += words[i];
-        if (i != words.size() - 1) result += " ";
+        if (i != words.size() - 1) result += " ";//ohk
     }
 
     return result;
