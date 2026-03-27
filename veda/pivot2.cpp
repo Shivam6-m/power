@@ -25,7 +25,7 @@ int trap(vector<int>& height) {
             cout << " -> Add " << trapped << " water (LEFT)\n";//
             l++;
         } else {
-            int trapped = rightmax - height[r];
+            int trapped = rightmax - height[r];//
             water += trapped;
 
             cout << " -> Add " << trapped << " water (RIGHT)\n";
