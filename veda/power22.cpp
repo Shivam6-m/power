@@ -8,7 +8,7 @@ long long output[1000];//
     for(int i=0;i<n;i++){//
         cin>>arr[i];
     }
-    output[0] = 1;
+    output[0] = 2;
     for(int i =1;i<n;i++){
         output[i]=output[i-1]*arr[i-1];
     }
