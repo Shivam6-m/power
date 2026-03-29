@@ -2,7 +2,7 @@
 #include <sstream>
 #include <vector>
 #include <algorithm>
-using namespace std;
+using namespace std;//
 
 
 string removeOccurrences(string s, string part){
