@@ -7,7 +7,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {        // rows//
         for (int j = 0; j < n; j++) {    // columns////
-            cout << "* ";
+            cout << "* ";//
         }
         cout << endl;
     }
