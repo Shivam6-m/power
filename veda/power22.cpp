@@ -18,6 +18,6 @@ long long output[1000];//
         right = right * arr[i];
     }
     for(int i =0;i<n;i++){
-        cout<<output[i]<< " ";
+        cout<<output[i]<< " ";//
     }
 }
