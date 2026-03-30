@@ -10,7 +10,7 @@ long long output[1000];//
     }
     output[0] = 1;
     for(int i =1;i<n;i++){
-        output[i]=output[i-1]*arr[i-1];
+        output[i]=output[i-1]*arr[i-1];//
     }
     long long right = 1;
     for(int i =n-1;i>=0;i--){
