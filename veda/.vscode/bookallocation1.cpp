@@ -10,7 +10,7 @@ for( int i =0; i<n; i++){
     if(arr[i] > maxAllowedPages){ //this is the edge cases and its very important cases ohk
         return false ;
     }
-    if(pages + arr[i] <= maxAllowedPages){
+    if(pages + arr[i] <= maxAllowedPages){//
         pages += arr[i];
 
     }//
