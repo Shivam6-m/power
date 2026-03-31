@@ -17,7 +17,7 @@ for( int i =0; i<n; i++){
     else{
         students ++;
         pages = arr[i];
-    }
+    }//
 }
  return students > m ? false: true;
 
