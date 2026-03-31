@@ -13,7 +13,7 @@ for( int i =0; i<n; i++){
     if(pages + arr[i] <= maxAllowedPages){
         pages += arr[i];
 
-    }
+    }//
     else{
         students ++;
         pages = arr[i];
