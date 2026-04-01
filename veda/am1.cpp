@@ -4,7 +4,7 @@ int main(){
     int n,m;
     cin>>n>>m;
     int arr[30][30];
-    for(int i = 0;i<n; i++){
+    for(int i = 0;i<n; i++){//
         for(int j=0;j<m;j++){
             cin>>arr[i][j];
         }
