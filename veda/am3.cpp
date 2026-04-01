@@ -18,7 +18,7 @@ int main(){
             }
         }
         if(!isLower)
-            break;
+            break;//
     }
     if(isLower)
         cout<<"true";//this say true 
