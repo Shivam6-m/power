@@ -34,7 +34,7 @@ int main(){
         if(top<=bottom){
             // first row ke liye 
             for(int i=right;i>=left;i--){
-                cout<<arr[top][i]<< ", ";
+                cout<<arr[top][i]<< ", ";//
             }
             top++;
         }
