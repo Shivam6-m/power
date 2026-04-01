@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;//
 
-string reverseWords(string s) {
+string reverseWords(string s) {//
     stringstream ss(s);//
     string word, result;//
 
