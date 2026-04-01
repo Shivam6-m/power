@@ -10,7 +10,7 @@ void nextPermutation(vector<int>& nums) {
 
     // Step 1: Find pivot ohk 
     for (int i = n - 2; i >= 0; i--) {
-        if (nums[i] < nums[i + 1]) {
+        if (nums[i] < nums[i + 1]) {//
             pivot = i;
             break;
         }
