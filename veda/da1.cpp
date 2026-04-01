@@ -8,7 +8,7 @@ string reverseWords(string s) {
     stringstream ss(s);//
     string word, result;//
 
-    vector<string> words;
+    vector<string> words;//
 
     while (ss >> word) {
         words.push_back(word);
