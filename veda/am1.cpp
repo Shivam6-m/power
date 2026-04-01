@@ -22,7 +22,7 @@ int main(){
             j--;
         }
         else{
-            i++;
+            i++;//
         }//
     }
     cout<<0;
