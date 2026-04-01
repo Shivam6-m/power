@@ -9,7 +9,7 @@ int main(){
         long long mid=(low+high)/2;
         if(mid*mid==A){
             ans=mid;
-            break;
+            break;//
         }
         if(mid*mid<A){
             ans=mid;
