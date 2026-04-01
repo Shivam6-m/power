@@ -26,5 +26,5 @@ int main(){
         }//
     }
     cout<<0;
-    return 0;
+    return 0;//
 }// this is matrix searching problem ohk and its very common //
