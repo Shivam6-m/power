@@ -23,7 +23,7 @@ int main(){
         }
         else{
             i++;
-        }
+        }//
     }
     cout<<0;
     return 0;
