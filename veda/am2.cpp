@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main(){//
     int n,m,k,s;
     cin>>n>>m>>k>>s;
     char park[100][100];//char//
