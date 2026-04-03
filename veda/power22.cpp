@@ -16,7 +16,7 @@ long long output[1000];//
     for(int i =n-1;i>=0;i--){
         output[i] = output[i] * right;
         right = right * arr[i];
-    }
+    }//
     for(int i =0;i<n;i++){
         cout<<output[i]<< " ";//
     }
