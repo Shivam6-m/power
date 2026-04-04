@@ -49,7 +49,7 @@ int allocateBooks(vector<int> &arr, int n, int m){
     }
     return ans;
 }
-int main()
+int main()//
 {
 vector<int>arr = { 2,1,3,4};//git add .//
 
