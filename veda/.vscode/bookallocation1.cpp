@@ -57,4 +57,4 @@ int m=2 ; /// this is for students
 
 cout<< allocateBooks(arr , n ,m)<< endl;
 return 0;
-}
+}//
