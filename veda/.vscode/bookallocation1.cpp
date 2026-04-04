@@ -51,7 +51,7 @@ int allocateBooks(vector<int> &arr, int n, int m){
 }
 int main()
 {
-vector<int>arr = { 2,1,3,4};//git add .
+vector<int>arr = { 2,1,3,4};//git add .//
 
 int n=4 ;// this is how many book 
 int m=2 ; /// this is for students  //
