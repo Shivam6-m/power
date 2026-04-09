@@ -7,7 +7,7 @@ vector<int> twoSum(vector<int>& numbers, int target) {
     while(left < right){//ohk
         int sum = numbers[left] + numbers[right];//
 
-        if(sum == target){
+        if(sum ==target){
             return {left + 1, right + 1};//
         }
         else if(sum < target){
